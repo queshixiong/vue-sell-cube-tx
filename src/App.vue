@@ -57,7 +57,7 @@
       _getSeller() {
         getSeller({
         }).then((seller) => {
-          this.seller = seller.data
+          this.seller = seller
         })
       }
     },

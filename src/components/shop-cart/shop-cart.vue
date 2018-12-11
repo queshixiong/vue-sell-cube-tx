@@ -38,7 +38,6 @@
 
 <script>
   import Bubble from 'components/bubble/bubble'
-
   const BALL_LEN = 10
   const innerClsHook = 'inner-hook'
 
