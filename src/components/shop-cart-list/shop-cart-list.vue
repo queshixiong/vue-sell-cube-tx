@@ -24,7 +24,7 @@
                 v-for="(food,index) in selectFoods"
                 :key="index"
               >
-                <span class="name">{{food.name}}</span>
+                <span class="name">{{food.foodName}}</span>
                 <div class="price">
                   <span>￥{{food.price*food.count}}</span>
                 </div>

@@ -46,7 +46,7 @@
                 <img width="57" height="57" :src="food.icon">
               </div>
               <div class="content">
-                <h2 class="name">{{food.name}}</h2>
+                <h2 class="name">{{food.foodName}}</h2>
                 <p class="desc">{{food.description}}</p>
                 <div class="extra">
                   <span class="count">月售{{food.sellCount}}份</span><span>好评率{{food.rating}}%</span>
