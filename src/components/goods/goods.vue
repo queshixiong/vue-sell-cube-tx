@@ -118,7 +118,7 @@
       barTxts() {
         let ret = []
         this.goods.forEach((good) => {
-          const {type, name, goodsfood} = good
+          const { type, name, goodsfood } = good
           let count = 0
           goodsfood.forEach((food) => {
             count += food.count || 0
