@@ -106,9 +106,8 @@
         if (!this.fetched) {
           this.fetched = true
           getRatings({
-            id: this.seller.id
           }).then((ratings) => {
-            this.ratings = ratings
+            this.ratings = ratings.data
           })
         }
       },

@@ -147,7 +147,6 @@
         selectFood(food) {
           this.selectedFood = food
           this._showFood()
-          this._showShopCartSticky()
         },
         onAdd(target) {
           this.$refs.shopCart.drop(target)
